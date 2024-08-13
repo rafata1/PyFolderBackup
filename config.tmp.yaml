@@ -1,7 +1,7 @@
 backups:
   - name: backup1
     cron: "0 0 * * *"
-    source_folder: /path/to/source1
+    source_dir: /path/to/source1
     s3:
       bucket: my-bucket
       region: us-west-2
