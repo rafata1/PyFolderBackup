@@ -1,0 +1,13 @@
+backups:
+  - name: backup1
+    cron: "0 0 * * *"
+    source_folder: /path/to/source1
+    s3:
+      bucket: my-bucket
+      region: us-west-2
+      access_key_id: my-access-key
+      secret_access_key: my-secret-key
+      sender_email: my-email
+      recipient_emails:
+        - my-email1
+        - my-email1
